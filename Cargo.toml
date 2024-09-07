@@ -3,6 +3,12 @@ name = "az"
 version = "0.1.0"
 edition = "2021"
 
+description = "A small CLI tool to create Aztec codes and share data with your phone."
+homepage = "https://github.com/minils/az"
+repository = "https://github.com/minils/az"
+license = "MIT"
+keywords = ["qr", "aztec"]
+
 [dependencies]
 anyhow = "1.0.86"
 clap = "4.5.17"
