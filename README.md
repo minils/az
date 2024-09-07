@@ -1,4 +1,4 @@
-# `az` - Aztec encoder CLI
+# `azt` - Aztec encoder CLI
 
 A small CLI tool to create Aztec codes and share data with your phone.
 
@@ -7,13 +7,13 @@ A small CLI tool to create Aztec codes and share data with your phone.
 To create an Aztec code from a string use:
 
 ```sh
-$ az "Hello World! 🗺️"
+$ azt "Hello World! 🗺️"
 ```
 
-`az` also listens on stdin:
+`azt` also listens on stdin:
 
 ```sh
-echo "Good morning" | az -
+echo "Good morning" | azt -
 ```
 
 For scanning use a barcode reader like [Binary Eye](https://github.com/markusfisch/BinaryEye).
